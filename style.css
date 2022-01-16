@@ -1,13 +1,23 @@
+:root {
+  --branding-color: #6c63ff;
+}
 h1 {
   color: black;
   font-family: "Playfair Display", serif;
-  font-size: 38px;
+  font-size: 96px;
+  font-weight: 700;
 }
-p,
-h2 {
-  font-size: 15px;
+p {
+  font-size: 36px;
   font-family: "Poppins", sans-serif;
-  margin: 0%;
+  font-weight: 700;
+  margin: 0;
+}
+h2 {
+  font-size: 24px;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  color: rgba(39, 33, 66, 1);
 }
 .d-flex {
   display: flex;
@@ -15,7 +25,23 @@ h2 {
 .bg-warning {
   background-color: #ffc107;
 }
-body {
-  margin: 0;
-  padding: 0;
+.begin {
+  display: block;
+  text-align: center;
+  padding: 160px 20px;
+}
+.btn-branding {
+  background: var(--branding-color);
+  border-radius: 4px;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 12px 20px;
+  font-weight: 500;
+}
+.btn-branding:hover {
+  color: white;
+  text-decoration: none;
 }
