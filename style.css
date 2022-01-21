@@ -81,3 +81,9 @@ h3 {
 .project-spacing {
   padding: 120px 60px;
 }
+@media (max-width: 960px) {
+  .project-spacing {
+    padding: 30px;
+    text-align: center;
+  }
+}
