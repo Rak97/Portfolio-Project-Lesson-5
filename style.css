@@ -78,3 +78,6 @@ h3 {
   color: var(--branding-color);
   text-decoration: none;
 }
+.project-spacing {
+  padding: 120px 60px;
+}
