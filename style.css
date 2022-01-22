@@ -1,11 +1,12 @@
 :root {
-  --branding-color: #6c63ff;
+  --branding-color: navy;
   --head-font-family: "Playfair Display", serif;
   --body-font-family: "Poppins", sans-serif;
   --button-color: white;
+  --font-color: black;
 }
 h1 {
-  color: black;
+  color: var(--font-color);
   font-family: var(--head-font-family);
   font-size: 96px;
   font-weight: 700;
@@ -32,7 +33,7 @@ h3 {
   font-size: 64px;
   font-family: var(--head-font-family);
   font-weight: 700;
-  color: rgba(0, 0, 0, 1);
+  color: var(--font-color);
 }
 .begin {
   display: block;
@@ -130,7 +131,7 @@ h3 {
 h4 {
   font-size: 48px;
   font-family: var(--head-font-family);
-  color: black;
+  color: var(--font-color);
   font-weight: 700;
 }
 .hero {
