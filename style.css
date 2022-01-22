@@ -110,3 +110,40 @@ h3 {
     font-size: 12px;
   }
 }
+.about-section h1 {
+  font-size: 64px;
+  font-weight: 700;
+}
+.about-section h2 {
+  font-size: 18px;
+  font-weight: bold;
+  color: rgba(39, 33, 66, 1);
+}
+.about-section p {
+  font-size: 16px;
+}
+.about-section {
+  display: block;
+  text-align: center;
+  padding: 120px 20px;
+}
+h4 {
+  font-size: 48px;
+  font-family: var(--head-font-family);
+  color: black;
+  font-weight: 700;
+}
+.hero {
+  font-size: 28px;
+}
+.miracle {
+  display: block;
+  text-align: center;
+  padding: 60px 10px;
+}
+.icon {
+  color: var(--branding-color);
+  align-items: flex-end;
+  display: flex;
+  justify-content: space-around;
+}
