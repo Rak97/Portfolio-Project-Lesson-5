@@ -146,5 +146,5 @@ h4 {
   color: var(--branding-color);
   align-items: flex-end;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
