@@ -148,3 +148,23 @@ h4 {
   display: flex;
   justify-content: space-evenly;
 }
+
+.content-container h1 {
+  font-size: 64px;
+  font-weight: 700;
+}
+.content-container {
+  display: block;
+  text-align: center;
+  padding: 120px 20px;
+}
+.content-container h3 {
+  font-family: var(--body-font-family);
+  text-align: center;
+  font-size: 24px;
+  font-weight: bolder;
+}
+.content-container p {
+  font-size: 14px;
+  font-weight: 400;
+}
