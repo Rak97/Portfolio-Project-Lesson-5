@@ -253,3 +253,8 @@ a:hover {
   text-align: left;
   padding: 55px 85px;
 }
+.footer-container {
+  display: block;
+  text-align: left;
+  padding: 55px 200px;
+}
