@@ -249,7 +249,7 @@ a:hover {
   font-size: 16px;
 }
 .foot-container {
-  display: flex;
+  display: block;
   text-align: left;
   padding: 55px 85px;
 }
