@@ -258,3 +258,8 @@ a:hover {
   text-align: left;
   padding: 55px 200px;
 }
+.footer-container p {
+  font-size: 16px;
+  font-family: var(--body-font-family);
+  font-weight: 400;
+}
