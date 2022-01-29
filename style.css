@@ -135,9 +135,6 @@ h3 {
   .active {
     font-size: 13px;
   }
-  .footer-container p {
-    padding: 0 auto;
-  }
 }
 .about-section h1 {
   font-size: 64px;
@@ -255,14 +252,4 @@ a:hover {
   display: block;
   text-align: left;
   padding: 55px 85px;
-}
-.footer-container {
-  display: block;
-  text-align: left;
-  padding: 55px 200px;
-}
-.footer-container p {
-  font-size: 16px;
-  font-family: var(--body-font-family);
-  font-weight: 400;
 }
