@@ -125,6 +125,9 @@ h3 {
   .miracle {
     font-size: 16px;
   }
+  nav.d-flex.justify-content-between {
+    font-size: 0.1rem;
+  }
 }
 .about-section h1 {
   font-size: 64px;
