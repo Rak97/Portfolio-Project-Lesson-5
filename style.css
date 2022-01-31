@@ -121,7 +121,8 @@ h3 {
   .active {
     font-size: 13px;
   }
-  p.hero, .miracle {
+  p.hero,
+  .miracle {
     font-size: 16px;
   }
 }
@@ -140,7 +141,6 @@ h3 {
 .about-section {
   display: block;
   text-align: center;
-  padding: 120px 20px;
 }
 h4 {
   font-size: 48px;
@@ -163,7 +163,7 @@ p.hero {
   text-align: center;
   padding: 60px 10px;
   font-family: var(--body-font-family);
-  font-size:28px;
+  font-size: 28px;
 }
 .icon {
   align-items: flex-end;
@@ -214,9 +214,9 @@ p.hero {
   color: white;
 }
 .fa-github-alt {
-    background: purple;
+  background: purple;
   color: white;
-    padding: 20px;
+  padding: 20px;
   font-size: 30px;
   width: 75px;
   text-align: center;
@@ -254,8 +254,8 @@ a:hover {
   font-weight: bolder;
   font-size: 16px;
 }
-.foot-container {
-  display: block;
+
+.text-muted {
+  color: #6c757d;
   text-align: left;
-  padding: 55px 85px;
 }
